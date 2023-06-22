@@ -1,8 +1,8 @@
 <template>
   <div id="wrapper">
     <v-range-slider
-      :max="0"
-      :min="500"
+      :max="500"
+      :min="0"
       :step="10"
       v-model="distance"
       direction="vertical"
