@@ -1,5 +1,5 @@
 <template>
-  <div id="wrapper-chat">
+  <div id="wrapper">
     <div id="demo__button">Chat</div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
     scr.setAttribute('id', 'hde-chat-widget')
     scr.setAttribute('data-host', 'nsys.helpdeskeddy.com')
     scr.setAttribute('data-position', 'bottom-right')
-    scr.setAttribute('data-custom-container', 'wrapper-chat')
+    scr.setAttribute('data-custom-container', 'wrapper')
 
     document.body.appendChild(scr)
   },
@@ -28,6 +28,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 #wrapper-chat {
+  opacity: 0.5;
+  background: #c5c5c5;
   width: 400px;
   height: 400px;
 }
