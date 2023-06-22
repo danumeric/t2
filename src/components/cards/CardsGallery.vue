@@ -19,7 +19,6 @@ export default {
     scr.setAttribute('id', 'hde-chat-widget')
     scr.setAttribute('data-host', 'nsys.helpdeskeddy.com')
     scr.setAttribute('data-position', 'bottom-right')
-    scr.setAttribute('data-custom-container', 'wrapper')
 
     document.body.appendChild(scr)
   },
@@ -28,9 +27,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 #wrapper {
-  opacity: 0.5;
   background: #c5c5c5;
   width: 400px;
   height: 400px;
+}
+#hde-container {
+  inset: 44px 0px 0px 44px;
 }
 </style>
