@@ -1,5 +1,13 @@
 <template>
   <div id="wrapper">
+    <v-range-slider
+    v-model="range"
+    :max="10"
+    :min="-10"
+    :step="1"
+    hideDetails
+    class="align-center"
+  >
     <div id="demo__button">
       <p v-for="n in 100" :key="n">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -45,6 +53,6 @@ export default {
 // }
 
 .hde-container-mobile {
-  width: 650px !important;
+  width: calc(350px + 15vw) !important;
 }
 </style>
