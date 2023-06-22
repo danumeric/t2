@@ -19,7 +19,7 @@ export default {
     scr.setAttribute('id', 'hde-chat-widget')
     scr.setAttribute('data-host', 'nsys.helpdeskeddy.com')
     scr.setAttribute('data-position', 'bottom-right')
-    scr.setAttribute('data-custom-container', 'demo')
+    scr.setAttribute('data-custom-container', 'wrapper-chat')
 
     document.body.appendChild(scr)
   },
