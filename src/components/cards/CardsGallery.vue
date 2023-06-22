@@ -1,6 +1,5 @@
 <template>
   <div id="wrapper">
-    <v-slider :max="500" :min="0" :step="10" v-model="distance"></v-slider>
     <div id="demo__button">
       <p v-for="n in 100" :key="n">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -53,7 +52,7 @@ export default {
 // }
 
 .hde-container-mobile {
-  width: calc(v-bind('distancePx') + 350px);
-  //  width: calc(350px + 15vw) !important;
+  //  width: calc(v-bind('distancePx') + 350px);
+  width: calc(350px + 15vw) !important;
 }
 </style>
