@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Рождение Венеры",
+      "author_name": "Сандро Боттичелли",
+      "price_usd": 2000000,
+      "price_sale_usd": 1000000,
+      "image_source_main": "venera-1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec eros consectetur, consectetur sapien et, convallis nulla. Sed vitae nunc purus."
+    },
+    {
+      "id": "2",
+      "title": "Тайная вечеря",
+      "author_name": "Леонардо да Винчи",
+      "price_usd": 3000000,
+      "image_source_main": "supper-1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec eros consectetur, consectetur sapien et, convallis nulla. Sed vitae nunc purus."
+    },
+    {
+      "id": "3",
+      "title": "Сотворение Адама",
+      "author_name": "Микеланджело",
+      "price_usd": 6000000,
+      "price_sale_usd": 5000000,
+      "image_source_main": "adam-1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec eros consectetur, consectetur sapien et, convallis nulla. Sed vitae nunc purus."
+    },
+    {
+      "id": "4",
+      "title": "Урок анатомии",
+      "author_name": "Рембрандт",
+      "price_usd": 2000000,
+      "image_source_main": "anatomy-1.jpg",
+      "out_stock_status": "Продана на аукционе",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec eros consectetur, consectetur sapien et, convallis nulla. Sed vitae nunc purus."
+    }
+  ]
+}
