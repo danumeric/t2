@@ -1,13 +1,6 @@
 <template>
   <div id="wrapper">
-    <v-range-slider
-    v-model="range"
-    :max="10"
-    :min="-10"
-    :step="1"
-    hideDetails
-    class="align-center"
-  >
+    <v-range-slider v-model="distance" direction="vertical"></v-range-slider>
     <div id="demo__button">
       <p v-for="n in 100" :key="n">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -26,7 +19,9 @@ import { mapGetters } from 'vuex'
 export default {
   name: 'CardsGallery',
   data() {
-    return {}
+    return {
+      distance: 0,
+    }
   },
   mounted() {
     let scr = document.createElement('script')
