@@ -25,7 +25,7 @@ export default {
   components: {},
 }
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 #wrapper {
   background: #c5c5c5;
   width: 400px;
