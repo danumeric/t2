@@ -27,7 +27,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.wrapper-chat {
+#wrapper-chat {
   width: 400px;
   height: 400px;
 }
