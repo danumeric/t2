@@ -37,7 +37,7 @@ export default {
 #wrapper {
   background: #fdfdfd;
 }
-#hde-container {
-  width: 650px !important;
-}
+// #hde-container {
+//   width: 650px !important;
+// }
 </style>
