@@ -40,4 +40,11 @@ export default {
 // #hde-container {
 //   width: 650px !important;
 // }
+// .widget-app_web-button {
+//   transform: translate(200px, 0);
+// }
+
+.hde-container-mobile {
+  width: 650px !important;
+}
 </style>
