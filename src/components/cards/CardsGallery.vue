@@ -1,5 +1,5 @@
 <template>
-  <div id="demo">
+  <div id="wrapper-chat">
     <div id="demo__button">Chat</div>
   </div>
 </template>
@@ -19,15 +19,15 @@ export default {
     scr.setAttribute('id', 'hde-chat-widget')
     scr.setAttribute('data-host', 'nsys.helpdeskeddy.com')
     scr.setAttribute('data-position', 'bottom-right')
+    scr.setAttribute('data-custom-container', 'demo')
+
     document.body.appendChild(scr)
   },
   components: {},
 }
 </script>
 <style lang="scss" scoped>
-.tb {
-  margin: 100px auto;
-  background: #dfdfdf;
+.wrapper-chat {
   width: 400px;
   height: 400px;
 }
