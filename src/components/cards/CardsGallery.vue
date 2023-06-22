@@ -1,6 +1,12 @@
 <template>
   <div id="wrapper">
-    <v-range-slider v-model="distance" direction="vertical"></v-range-slider>
+    <v-range-slider
+      :max="0"
+      :min="500"
+      :step="10"
+      v-model="distance"
+      direction="vertical"
+    ></v-range-slider>
     <div id="demo__button">
       <p v-for="n in 100" :key="n">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -22,6 +28,11 @@ export default {
     return {
       distance: 0,
     }
+  },
+  computed: {
+    distancePx() {
+      return this.distance + 'px'
+    },
   },
   mounted() {
     let scr = document.createElement('script')
@@ -48,6 +59,7 @@ export default {
 // }
 
 .hde-container-mobile {
-  width: calc(350px + 15vw) !important;
+  width: calc(v-bind('distancePx') + 350px);
+  //  width: calc(350px + 15vw) !important;
 }
 </style>
