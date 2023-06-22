@@ -38,6 +38,6 @@ export default {
   background: #fdfdfd;
 }
 #hde-container {
-  width: 650px;
+  width: 650px !important;
 }
 </style>
