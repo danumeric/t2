@@ -35,9 +35,7 @@ export default {
 </script>
 <style lang="scss">
 #wrapper {
-  background: #c5c5c5;
-  width: 400px;
-  height: 400px;
+  background: #fdfdfd;
 }
 #hde-container {
   width: 650px;
