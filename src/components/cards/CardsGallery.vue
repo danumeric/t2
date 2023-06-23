@@ -1,6 +1,9 @@
 <template>
   <div id="wrapper">
-    <div id="demo__button">
+    <div class="mt-5 d-flex justify-center">
+      <v-btn id="btn-chat"> Открыть чат </v-btn>
+    </div>
+    <div class="mt-5">
       <p v-for="n in 100" :key="n">
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -34,6 +37,7 @@ export default {
     scr.setAttribute('id', 'hde-chat-widget')
     scr.setAttribute('data-host', 'nsys.helpdeskeddy.com')
     scr.setAttribute('data-position', 'bottom-right')
+    scr.setAttribute('data-custom-button', 'btn-chat')
 
     document.body.appendChild(scr)
   },
@@ -55,4 +59,9 @@ export default {
   //  width: calc(v-bind('distancePx') + 350px);
   width: calc(350px + 15vw) !important;
 }
+// #btn-chat {
+//   background: #e016163a;
+//   width: 100px;
+//   height: 100px;
+// }
 </style>
